@@ -16,5 +16,5 @@ tasks:
 
   gerbers:
     run: |
-      kikit fab jlcpcb updipogo.kicad_pcb ./
+      kikit fab jlcpcb updipogo-panel.kicad_pcb ./
       mv -v gerbers.zip updipogo-gerbers.zip

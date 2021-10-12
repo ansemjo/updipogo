@@ -734,6 +734,9 @@
   (gr_text "updipogo_v1" (at 125.222 73.841) (layer "B.Mask") (tstamp c519ab7a-d0ce-4116-9ab5-2a7e583e41ca)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
+  (gr_text "TODO: LED does {dblquote}nothing{dblquote} because\nit's constantly lit up" (at 129 67.6) (layer "F.Fab") (tstamp 4f26a803-a3e4-4baa-84ba-827b3d042d7d)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
 
   (segment (start 130.396447 78.603553) (end 130.553554 78.446446) (width 0.5) (layer "F.Cu") (net 2) (tstamp 1a65f3e9-d16e-49d8-a3bb-119bbb219659))
   (segment (start 130.25 79.25) (end 130.25 78.957107) (width 0.5) (layer "F.Cu") (net 2) (tstamp 3e4881be-86a8-4b7d-a8e1-799bfaf70d42))

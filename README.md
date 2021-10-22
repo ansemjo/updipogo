@@ -15,3 +15,10 @@ to give the spearhead tips something to fall into.
 [pnoxi]: https://www.tindie.com/products/pnoxi/avr-isp-pogo-pin-adapter-2x3-idc2x3-pogo-254mm/
 
 ![](images/render.png)
+![](images/updipogo_bottom.jpg)
+
+### err: usb polarity error
+
+On the first order I somehow mixed up USB `D+` and `D-`. Cut the traces next to the serial chip and use thin enamelled wire to connect the receptacle correctly.
+
+![](images/usb_polarity_error.jpg)

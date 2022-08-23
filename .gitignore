@@ -24,4 +24,5 @@ fp-info-cache
 
 # production files
 gerber/
-*-gerbers.zip
+*gerbers.zip
+panel.kicad_*

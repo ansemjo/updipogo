@@ -1,24 +1,13 @@
 # updipogo
 
-This was an idea to combine a tiny board with pogo pins (spring-loaded probes)
-on one end and a cheap USB-to-UART chip to build an UPDI programmer. The idea
-comes from a [Pnoxi AVR-ISP Pogo][pnoxi], which I use for programming of older
-AVRs.
+This was an idea to combine a tiny board with [pogo pins](https://aliexpress.com/item/1005002667659397.html) (spring-loaded probes) on one end and a cheap [CH340N USB-to-UART chip](https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340N_C2977777.html) on the other end, to build an [UPDI programmer](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md). The idea stems from a [Pnoxi AVR-ISP Pogo][https://www.tindie.com/products/pnoxi/avr-isp-pogo-pin-adapter-2x3-idc2x3-pogo-254mm/], which I use for programming older AVRs.
 
-The pogo footprint uses a denser pitch of 1.6 mm so that programming pads on
-future boards could require minimal space. The underside has footprints to add
-pins with standard 2.54 mm pitch or even a small header, though.
+![](images/v2/top_on.jpg)
 
-Add small 0.4 mm vias in the middle of the three programming pads if you can
-to give the spearhead tips something to fall into.
+![](images/v2/bottom.jpg)
 
-[pnoxi]: https://www.tindie.com/products/pnoxi/avr-isp-pogo-pin-adapter-2x3-idc2x3-pogo-254mm/
+The pogo footprint uses a somewhat dense pitch of 1.6 mm so that programming pads on future boards could require minimal space. The underside has footprints to add pins with standard 2.54 mm pitch or even a "normal" header, though.
 
-![](images/render.png)
-![](images/updipogo_bottom.jpg)
+![](images/pads.png)
 
-### err: usb polarity error
-
-On the first order I somehow mixed up USB `D+` and `D-`. Cut the traces next to the serial chip and use thin enamelled wire to connect the receptacle correctly.
-
-![](images/usb_polarity_error.jpg)
+Add small 0.4 mm vias in the middle of the three programming pads if you can to give the spearhead tips something to fall into.

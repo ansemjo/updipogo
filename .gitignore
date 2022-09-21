@@ -25,4 +25,5 @@ fp-info-cache
 # production files
 gerber/
 *gerbers.zip
+updipogo.zip
 panel.kicad_*

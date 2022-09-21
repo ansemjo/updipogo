@@ -6,8 +6,14 @@ This was an idea to combine a tiny board with [pogo pins](https://aliexpress.com
 
 ![](images/v2/bottom.jpg)
 
+### Programming Pads
+
 The pogo footprint uses a somewhat dense pitch of 1.6 mm so that programming pads on future boards could require minimal space. The underside has footprints to add pins with standard 2.54 mm pitch or even a "normal" header, though.
 
 ![](images/pads.png)
 
 Add small 0.4 mm vias in the middle of the three programming pads if you can to give the spearhead tips something to fall into.
+
+### Alternatives
+
+[Stefan Wagner lists a lot of possible UPDI programmer alternatives](https://github.com/wagiminator/AVR-Programmer). Those include voltage switching, HV capable programmers and `jtag2updi`-compatible ones.

@@ -14,6 +14,13 @@ The pogo footprint uses a somewhat dense pitch of 1.6 mm so that programming pad
 
 Add small 0.4 mm vias in the middle of the three programming pads if you can to give the spearhead tips something to fall into.
 
+### Make Your Own
+
+* Install [`kikit`](https://github.com/yaqwsx/KiKit)
+* Run `make gerbers.zip`
+* Order your PCBs
+* Check the [interactive BOM](https://htmlpreview.github.io/?https%3A%2F%2Fgithub.com%2Fansemjo%2Fupdipogo%2Fblob%2Fmain%2Fibom.html=) to see which part goes where
+
 ### Alternatives
 
 [Stefan Wagner lists a lot of possible UPDI programmer alternatives](https://github.com/wagiminator/AVR-Programmer). Those include voltage switching, HV capable programmers and `jtag2updi`-compatible ones.

@@ -6,6 +6,8 @@ This was an idea to combine a tiny board with [pogo pins](https://aliexpress.com
 
 ![](images/v2/bottom.jpg)
 
+**Note:** It may be worthwhile to replace the 4.7 kΩ resistor with a diode instead. Or at least, use a smaller resistor in the range of 1–2 kΩ. [See errata](ERRATA.md#updipogo_v2).
+
 ### Programming Pads
 
 The pogo footprint uses a somewhat dense pitch of 1.6 mm so that programming pads on future boards could require minimal space. The underside has footprints to add pins with standard 2.54 mm pitch or even a "normal" header, though.

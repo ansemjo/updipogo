@@ -1,6 +1,6 @@
 # updipogo
 
-This was an idea to combine a tiny board with [pogo pins](https://aliexpress.com/item/1005002667659397.html) (spring-loaded probes) on one end and a cheap [CH340N USB-to-UART chip](https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340N_C2977777.html) on the other end, to build an [UPDI programmer](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md). The idea stems from a [Pnoxi AVR-ISP Pogo][https://www.tindie.com/products/pnoxi/avr-isp-pogo-pin-adapter-2x3-idc2x3-pogo-254mm/], which I use for programming older AVRs.
+This was an idea to combine a tiny board with [pogo pins](https://aliexpress.com/item/1005002667659397.html) (spring-loaded probes) on one end and a cheap [CH340N USB-to-UART chip](https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340N_C2977777.html) on the other end, to build an [UPDI programmer](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md). The idea stems from a [Pnoxi AVR-ISP Pogo](https://www.tindie.com/products/pnoxi/avr-isp-pogo-pin-adapter-2x3-idc2x3-pogo-254mm/), which I use for programming older AVRs.
 
 ![](images/v2/top_on.jpg)
 

@@ -37,3 +37,4 @@ Anyway. I switched the resistor for a Shottky Diode (with the band towards `TX`)
 ---------------+
 ```
 
+![](images/v2/diode.jpg)

@@ -21,7 +21,7 @@ Add small 0.4 mm vias in the middle of the three programming pads if you can to 
 * Install [`kikit`](https://github.com/yaqwsx/KiKit)
 * Run `make gerbers.zip`
 * Order your PCBs
-* Check the [interactive BOM](https://htmlpreview.github.io/?https%3A%2F%2Fgithub.com%2Fansemjo%2Fupdipogo%2Fblob%2Fmain%2Fibom.html=) to see which part goes where
+* Check the [interactive BOM](https://htmlpreview.github.io/?https://github.com/ansemjo/updipogo/blob/main/ibom.html) to see which part goes where
 
 ### Alternatives
 
